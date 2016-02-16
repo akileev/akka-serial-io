@@ -6,7 +6,7 @@ organization := "com.github.akileev"
 
 scalaVersion := "2.11.7"
 
-version := "1.0.0-SNAPSHOT"
+version := "1.0.0"
 
 licenses := Seq("The Apache Software License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
 

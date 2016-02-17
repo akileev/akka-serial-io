@@ -1,8 +1,8 @@
 package com.github.akileev.akka.serial.io
 
 import akka.actor._
-import jssc.{SerialPort, SerialPortList}
 import com.github.akileev.akka.serial.io.Serial._
+import jssc.{SerialPort, SerialPortList}
 
 import scala.util.{Failure, Success, Try}
 

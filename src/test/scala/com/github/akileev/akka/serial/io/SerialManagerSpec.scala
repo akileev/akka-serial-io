@@ -3,8 +3,8 @@ package com.github.akileev.akka.serial.io
 import akka.actor.ActorSystem
 import akka.io._
 import akka.testkit._
-import org.scalatest.{BeforeAndAfterAll, FunSuiteLike}
 import com.github.akileev.akka.serial.io.Serial._
+import org.scalatest.{BeforeAndAfterAll, FunSuiteLike}
 
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration

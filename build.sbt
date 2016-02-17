@@ -1,6 +1,6 @@
 import sbt.Keys._
 
-name := "serial-akka-io"
+name := "akka-serial-io"
 
 organization := "com.github.akileev"
 

@@ -2,8 +2,8 @@ package com.github.akileev.akka.serial.io
 
 import akka.actor._
 import akka.util.ByteStringBuilder
-import jssc.{SerialPort, SerialPortEvent, SerialPortEventListener}
 import com.github.akileev.akka.serial.io.Serial._
+import jssc.{SerialPort, SerialPortEvent, SerialPortEventListener}
 
 private[io] class SerialOperator(port: SerialPort, handler: ActorRef) extends Actor {
   private case class DataAvailable(count: Int)

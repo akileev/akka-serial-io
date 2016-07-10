@@ -9,7 +9,7 @@ Akka IO library in scala for serial ports based on jSSC.
 
 ## Usage
 
-    libraryDependencies += "com.github.akileev" %% "akka-serial-io" % "1.0.0"
+    libraryDependencies += "com.github.akileev" %% "akka-serial-io" % "1.0.2"
 
 To connect use (in an actor):
 

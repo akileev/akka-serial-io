@@ -10,7 +10,7 @@ version := "1.0.0"
 
 licenses := Seq("The Apache Software License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
 
-homepage := Some(url("https://github.com/akileev/serial-akka-io"))
+homepage := Some(url("https://github.com/akileev/akka-serial-io"))
 
 scalacOptions ++= Seq("-deprecation")
 
@@ -44,8 +44,8 @@ pomIncludeRepository := { _ => false}
 
 pomExtra :=
   <scm>
-    <url>git@github.com:akileev/serial-akka-io</url>
-    <connection>scm:git:git@github.com:akileev/serial-akka-io</connection>
+    <url>git@github.com:akileev/akka-serial-io</url>
+    <connection>scm:git:git@github.com:akileev/akka-serial-io</connection>
   </scm>
   <developers>
     <developer>

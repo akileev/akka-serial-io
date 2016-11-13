@@ -1,10 +1,10 @@
-import sbt.Keys._
-
 name := "akka-serial-io"
 
 organization := "com.github.akileev"
 
-scalaVersion := "2.11.7"
+crossScalaVersions := Seq("2.11.8", "2.12.0")
+
+scalaVersion := "2.11.8"
 
 version := "1.0.2"
 
@@ -17,15 +17,15 @@ scalacOptions ++= Seq("-deprecation")
 resolvers += "Sonatype OSS Snapshots" at
   "https://oss.sonatype.org/content/repositories/snapshots"
 
-lazy val akkaVersion = "2.4.1"
-lazy val scalaTestVersion = "2.2.6"
+lazy val akkaVersion = "2.4.12"
+lazy val scalaTestVersion = "3.0.1"
 lazy val jsscVersion = "2.8.0"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
   "org.scream3r" % "jssc" % jsscVersion,
-  "org.scalatest" % "scalatest_2.11" % scalaTestVersion % "test"
+  "org.scalatest" % "scalatest_2.12" % scalaTestVersion % "test"
 )
 
 publishMavenStyle := true
